@@ -12,7 +12,7 @@ const App: React.FC<IHomePage.IProps> = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(fetchDataRequested);
+        dispatch(fetchDataRequested());
     }, [dispatch]);
 
     useEffect(() => {
@@ -36,7 +36,7 @@ const App: React.FC<IHomePage.IProps> = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React
+                    Learn React 123
                 </a>
             </header>
         </div>

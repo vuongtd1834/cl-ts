@@ -2,23 +2,12 @@
     "compilerOptions": {
       "baseUrl": ".",
       "paths": {
-          // "@Components/*": ["src/Components/*"],
-          // "@Components": ["src/Components"],
-          // "@Definitions/*": ["src/Definitions/*"],
-          // "@Definitions": ["src/Definitions"],
           "@Interfaces": ["./src/Interfaces"],
           "@Interfaces/*": ["./src/Interfaces/*"],
-          // "@Pages/*": ["pages/*"],
           "@Reducers": ["./src/Redux/Reducers"],
           "@Reducers/*": ["./src/Redux/Reducers/*"],
           "@Redux": ["./src/Redux"],
-          "@Redux/*": ["./src/Redux/*"],
-          // "@Server/*": ["server/*"],
-          // "@Services": ["src/Services"],
-          // "@Services/*": ["src/Services/*"],
-          // "@Static/*": ["public/static/*"],
-          // "@Styled/*": ["src/Styled/*"],
-          // "@Test/*": ["test/*"]
+          "@Redux/*": ["./src/Redux/*"]
         }
     }
   }

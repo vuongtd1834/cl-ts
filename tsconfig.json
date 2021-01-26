@@ -28,10 +28,9 @@
   ],
   "exclude": [
     "node_modules",
-    "dist",
+    "build",
     ".next",
     "out",
-    ".babelrc",
     "bundles",
     "coverage",
     "test/*"
